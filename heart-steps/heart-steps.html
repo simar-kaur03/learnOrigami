@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>A HEART</title>
         <link rel="stylesheet" href="../style-steps.css">
     </head>
     <body>
@@ -8,12 +9,14 @@
         <h2> A HEART </h2>
 
         <progress id="status" min="0" max="80" value="0"></progress>
+    
+    <div id="window">
 
-    <div class="left">
+    <div class="left" onclick="klikl()">
         <button id="left-button">
               <
         </button>
-    </div>
+    </div >
 
          <div class="center" id="content">
 
@@ -60,6 +63,9 @@
         <button id="right-button">
                  >
         </button>
+
+        <!-- <audio id="beep" src="../click-sound.mp3"></audio> -->
+    </div>
 
     </body>
 
