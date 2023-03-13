@@ -60,15 +60,15 @@ button{
 
 #facts{
     position: absolute;
-    transform-origin: center;
-    left: 34%;
-    right: 32.6%;
-    top: 36%;
+    /* transform-origin: center; */
+    left: 35.7%;
+    /* right: 32.6%; */
+    padding-top: 300px;
 }
 
 
 #image{
-    transform-origin: center;
+    transform-origin: 260 50%;
     width: 520px;
 }
 
@@ -99,4 +99,86 @@ button{
 .navbar a:hover {
     background-color: rgb(18, 18, 215);
     color: aliceblue;
+}
+
+
+
+/* DIFFRENT WINDOW SIZES  */
+
+
+
+
+@media screen and (max-width: 1950px)
+{
+   
+button{
+    position: absolute;
+    top: 28%;
+    left:46%;
+    right: 44%;
+}
+
+#facts{
+    position: absolute;
+    left: 37%;
+}
+
+.navbar a{
+    position: relative;
+    left: 44.5%;
+    right: 43.5%;
+    float: left;
+}
+
+}
+
+
+
+@media screen and (max-width: 1750px)
+{
+    button{
+        position: absolute;
+        top: 41%;
+        left:46%;
+        right: 44%;
+    }
+    
+    #facts{
+        position: absolute;
+        left: 33.9%;
+    }
+
+    
+ .navbar a{
+    position: relative;
+    left: 41.5%;
+    right: 41.5%;
+    float: left;
+}
+
+}
+
+
+
+@media screen and (max-width: 1550px)
+{
+    button{
+        position: absolute;
+        top: 38%;
+        left:46%;
+        right: 44%;
+    }
+    
+    #facts{
+        position: absolute;
+        left: 33.5%;
+    }
+
+    
+ .navbar a{
+    position: relative;
+    left: 41.5%;
+    right: 41.5%;
+    float: left;
+}
 }
